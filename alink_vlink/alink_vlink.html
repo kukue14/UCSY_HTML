@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>alink & vlink</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        
+        * {
+            background-color: grey;
+        }
+
+        .heading {
+            margin: 20px;
+
+        }
+        
+        .paragraph {
+            margin: 20px;
+            font-size: 20px;
+        }
+
+        .link {
+            font-size: 30px;
+            display: block;
+            margin: auto;
+        }
+
+        .link_heading {
+            text-align: center;
+            font-size: 30px;
+        }
+        
+
+    </style>
+</head>
+<body alink="green" vlink="black" link="blue">
+    <div class="alink">
+        <h2 class="heading">What is the "alink" in HTML.</h2>
+        <p class="paragraph">"alink" is the Action Link. If we use "alink" attribute, we can change the color of text(link) when we press on it  with cursor. The default color of "alink" is "red".</p>
+        <h2 class="heading">Code Sample</h2>
+        <p class="paragraph">&lt;body alink="green" vlink="black" link="blue"&gt;&lt;/body&gt;&lt;/p&gt;
+        <a href="#" class="link"><h2 class="link_heading">This is the Action link.</h2></a>
+    </div>
+
+    <hr>
+
+    <div class="vlink">
+        <h2 class="heading">What is the "vlink" in HTML.</h2>
+        <p class="paragraph">"vlink" is the Visited link. </p>
+        <a href="#" class="link"><h2 class="link_heading">This is the Visited link.</h2></a>
+    </div>
+    
+    <hr>
+    
+</body>
+</html>   
