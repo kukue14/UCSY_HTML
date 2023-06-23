@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Form_Fill {
+    height: 500px;
+    width: 300px;
+    margin: 20% auto;
+}
+
+.Form_Fill fieldset {
+    border-radius: 10px;
+    background: linear-gradient(45deg, lightgreen, skyblue)
+
+}
+
+.legend {
+    margin: 20px;
+    font-size: 30px;
+}
+
+.forgot_password {
+    text-align: center;
+    font-size: 30px;
+}
+
+.input {
+    margin: 10px auto;
+    display: block;
+    height: 40px;
+    width: 250px;
+    border-radius: 5px;
+    text-indent: 10px;
+    background-color: transparent;
+}
+
+.submit {
+    height: 30px;
+    width: 100px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background-color: rgb(220, 238, 245);
+}
+
+.get_code {
+    height: 30px;
+    width: 100px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 5px;
+    background-color: rgb(220, 238, 245);
+}
+
+.password_recover {
+    padding-left: 20px;
+}
+
+.regrister {
+    text-align: center;
+    display: block;
+    margin: 10px;
+}
