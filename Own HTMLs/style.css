@@ -62,3 +62,27 @@
     display: block;
     margin: 10px;
 }
+
+.Navigation {
+    display: flex;
+    position: fixed;
+    justify-content: flex-end;
+    background-color: greenyellow;
+    width: 100%;
+}
+
+.content {
+    padding: 20px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.content:hover {
+    background-color: #797373;
+    color: #ffffff;
+}
+
+.fieldset {
+    margin: 10px;
+}
+
