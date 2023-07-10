@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    color: pink;
+}
+
+.Heading4 {
+    color: cyan;
+    text-align: right;
+    font-size: 50px;
+}
+
+#Heading5 {
+    color: brown;
+    font-size: 100px;
+    line-height: 400px;
+    text-align: center;
+}
