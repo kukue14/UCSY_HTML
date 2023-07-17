@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    body {
+        height: 5000px;
+    }
+#para1 {
+  position: static;
+  border: 1px solid blue;
+  width: 300px;
+  height: 100px;
+}
+#para11 {
+  position: absolute;
+  border: 1px solid red;
+  top: 70px;
+  right: 15px;
+}
+#para2 {
+  position: relative;
+  border: 1px solid blue;
+  width: 300px;
+  height: 100px;
+}
+#para22 {
+  position: absolute;
+  border: 1px solid red;
+  top: 70px;
+  right: 15px;
+}
+#para3 {
+  position: absolute;
+  border: 1px solid blue;
+  width: 300px;
+  height: 100px;
+  top: 600px;
+  right: 15px;
+}
+#para33 {
+  position: absolute;
+  border: 1px solid red;
+  top: 70px;
+  right: 15px;
+}
+#para4 {
+  position: fixed;
+  border: 1px solid blue;
+  background-color: rgba(255,200,200,0.5);  
+  width: 300px;
+  height: 100px;
+  bottom: 0;
+  left: 1.5px;
+  right: 0;
+}
+#para44 {
+  position: absolute;
+  border: 1px solid red;
+  top: 70px;
+  right: 15px;
+}
+</style>
+</head>
+<body>
+<h2>position: static;</h2>
+<div id="para1">This is para1.
+  <div id="para11">This is para11.</div>
+</div>
+
+<h2>position: relative;</h2>
+<div id="para2">This is para2.
+  <div id="para22">This is para22</div>
+</div>
+
+<h2>position: absolute;</h2>
+<div id="para3">This is para3.
+  <div id="para33">This is para33</div>
+</div>
+
+<h2>position: fixed;</h2>
+<p>This is a position example.This is a position example.This is a position example.This is a position example.This is a position example.This is a position example.This is a position example.This is a position example.This is a position example.This is a position example.This is a position example.This is a position example.This is a position example.This is a position example.This is a position example.This is a position example.This is a position example.This is a position example.This is a position example.This is a position example.This is a position example.This is a position example.This is a position example.</p>
+<div id="para4">This is para4.
+  <div id="para44">This is para44.</div>
+</div>
+
+</body>
+</html>

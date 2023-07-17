@@ -82,8 +82,8 @@
     color: #ffffff;
 }
 
-.fieldset {
-    margin: 10px;
-    
+.content:active {
+    background-color: #000000;
+    color: #ffffff;
 }
 
