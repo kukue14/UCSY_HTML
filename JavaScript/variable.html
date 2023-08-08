@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variable</title>
+    <script type="text/javascript">
+        var a = 33;
+        var b = 10;
+        var c = true;
+        var d = false;
+        var e = "HEllo";
+        var linebreak = "<br>";
+
+        document.write("a + b = ")
+        var result = a + b;
+        document.write(result);
+        document.write(linebreak);
+
+        document.write("(a < b) => ")
+        result = (a<b);
+        document.write(result);
+        document.write(linebreak);
+
+        document.write("(a > 50 && b < 13) => ");
+        result = (a > 50 && b < 13);
+        document.write(result);
+        document.write(linebreak);
+        document.write(typeof a)
+
+        document.write(linebreak);
+
+
+        var age = 10;
+
+
+
+        if(age > 18) {
+            document.write("<b> Qualifies for driving </b>");
+        } else {
+            document.write("<b> Does not qualify for driving. </b>")
+        }
+        
+        document.write(linebreak);
+
+        var grade = "A";
+        switch(grade) {
+            case "A": document.write("Good job<br/>");
+                break;
+            case "B": document.write("Normal<br/>");
+                break;  
+            case "C": document.write("Not Good<br/>");
+                break;
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
