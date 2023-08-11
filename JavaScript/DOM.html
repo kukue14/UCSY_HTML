@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <script>
+        function clickRed() {
+            var x = document.getElementById('demo');
+            x.style.color = "red";
+        }
+        function changeWord() {
+            var x = document.getElementsByClassName('element');
+            x[0].innerHTML = "Hello World";
+            x[1].innerHTML = "Welcome";
+            x[2].style.color = "skyblue";
+        }
+        function myFunction() {
+            var x = document.getElementsByName('animal').length;
+            document.getElementById('size').innerHTML = x;
+        }
+    </script>
+</head>
+<body>
+    <p id="demo" onclick="clickRed()">Click me to change red.</p>
+    <button onclick="clickRed()">Click Me</button>
+    <hr>
+    <div class="element">First div element with Class="example".</div>
+    <div class="element">Second div element with Class="example".</div>
+    <div class="element color">Hello This is element color</div>
+    <button onclick="changeWord()">Click me</button>
+    <hr>
+
+    <input type="checkbox" value="Dogs" name="animal"> Dogs
+    <input type="checkbox" value="Cats" name="animal"> Cats
+    <button onclick="myFunction()">Click me</button>
+    <p id="size"></p>
+</body>
+</html>

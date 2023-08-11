@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Looping</title>
+</head>
+<body>
+    <script type="text/javascript"> 
+        var count = 0;
+        document.write("Strating Loop<br>")
+        do {
+            document.write("Current Count" + count + "<br>");
+            count++;
+        } while(count < 5);
+        document.write("Loop stopped<hr>");
+        document.write("Strating Loop<br>")
+
+        for (count = 0; count < 10; count++) {
+            document.write("Current Count : " + count + "<br>");
+        
+        } 
+        document.write("Loop stopped.<hr>")
+
+        var fruits = ["Apple", "Orange", "Mango"];
+        for(var x in fruits) {
+            document.write(fruits[x] + "<br>")
+        }
+
+    </script>
+</body>
+</html>
